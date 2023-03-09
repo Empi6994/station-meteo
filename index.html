@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Station Météo</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Station météo</h1>
+        </header>
+        <div class="container-fluid">
+            <div class="row" id="station-meteo">
+                <div class="col-4" id="form-ville">
+                    <div>
+                        <h2>Choisissez votre ville</h2>
+                    </div>
+                    <hr>
+                    <div id="ville">
+                        <input type="text" value="Lyon">
+                        <button type="button">Valider</button>
+                    </div>
+                </div>
+                <div class="col-5" id="meteo-ville">
+                    <h2>Votre météo du jour</h2>
+                    <div id="icones-meteo">
+                        <div id="icon-meteo">
+                            <img src="./icon-weather/png/weather-06.png" alt="météo">                    
+                        </div>
+                        <div id="meteo-temp">
+                            <span>16°C</span>
+                        </div>
+                        <hr>
+                        <div id="meteo-details">
+                            <div id="vent">
+                                <img src="./icon-weather/meteo-details/pression.png" alt="pression athmosphérique">
+                                <span>22km/h NO</span>
+                            </div>
+                            <div id="pression">
+                                <img src="./icon-weather/meteo-details/vent.png" alt="vent">
+                                <span>1008.3hPa</span>
+                            </div>
+                            <div id="humidité">
+                                <img src="./icon-weather/meteo-details/humidite.png" alt="humidité">
+                                <span>56%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

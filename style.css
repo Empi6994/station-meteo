@@ -1,0 +1,115 @@
+body{
+    background-color: #43AEFC;
+}
+
+.row{
+    flex-wrap: nowrap;
+}
+
+#station-meteo{
+    padding: 2% 10% 2% 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+header{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    border: 0.5rem solid white;
+    border-radius: 4rem;
+    padding: 1% 10% 1% 10%;
+}
+
+h2{
+    color: #43AEFC;
+    padding: 1% 0 1% 0;
+    width: max-content;
+    display: inline-block;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+#form-ville, #meteo-ville{
+    padding: 2%;
+    border-radius: 10px;
+    background-color: white;
+    margin: 1%;
+}
+
+#fond-meteo{
+    width: 100%;
+    height: 100%;
+    background-image: url("./icon-weather/fond-meteo/huge-storm-cloud-tower-cumulus-and-cumulonimbus-c-2021-09-03-16-19-55-utc.jpg");
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#ville{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#ville button{
+    margin-top: 3%;
+    background-color: #79c7ff;
+    border-style: none;
+    border: 1px solid #43AEFC;
+    border-radius: 2px;
+}
+
+#ville input{
+    width: 100%;
+    text-align: center;
+    color: #808080;
+    border-style: none;
+    border: 1px solid #DEDEDE;
+    border-radius: 2px;
+}
+
+#icon-meteo{
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 2% 0;
+}
+
+#icon-meteo img{
+    width: 50%;
+}
+
+#meteo-temp{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#meteo-details{
+    display: flex;
+}
+
+#meteo-details *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pression{
+    border-left: 1px solid #00000033;
+    border-right: 1px solid #00000033;
+}
+
+#meteo-details img{
+    width: 15%;
+}
+
+#meteo-details span{
+    margin-left: 5%;
+    font-size: 1.2rem;
+}
